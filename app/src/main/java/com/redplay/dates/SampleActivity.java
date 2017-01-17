@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.github.redplay.dates.Dates;
-import com.github.redplay.dates.Format;
+import com.github.redplay.Dates;
+import com.github.redplay.Format;
 
 public class SampleActivity extends AppCompatActivity {
 

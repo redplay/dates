@@ -1,4 +1,4 @@
-package com.github.redplay.dates;
+package com.github.redplay;
 
 import org.junit.Test;
 
