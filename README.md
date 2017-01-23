@@ -65,7 +65,7 @@ TYPE31       | 23rd week of 1989
 
 All you need to do is, simply add **date/time** or **both** along with a selected **Format.TYPE**.
 
-Simple use cases:
+**Simple use cases:**
 
 ```javascript
 TextView textView = (TextView) findViewById(R.id.textview);
