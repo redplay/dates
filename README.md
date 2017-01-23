@@ -3,12 +3,27 @@
 [Dates][1] allows for custom date and time formatting in your Android application often in one line of code!
 
 ```javascript
-Dates.with(context).date("1990-07-23").time("20:45:50").format(Format.TYPE1);
+Dates.*with*(context).date("1990-07-23").time("20:45:50").format(Format.TYPE1);
 ```
 
 ## Download
 
-Gradle is under development
+Grab via Gradle:
+
+```groovy
+compile 'com.github.redplay:dates:1.0.0'
+```
+
+or Maven:
+
+```xml
+<dependency>
+  <groupId>com.github.redplay</groupId>
+  <artifactId>dates</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
 
 ## Usage
 
@@ -82,4 +97,4 @@ editText.setText(Dates.with(this).date("1990-07-23").time("20:45:50").format(For
     See the License for the specific language governing permissions and
     limitations under the License.
     
- [1]: https://redluckyseed.github.io/dates/
+ [1]: https://redplay.github.io/dates/
