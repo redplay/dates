@@ -1,6 +1,6 @@
 # Dates
 
-[Dates][1] allows for custom date and time formatting in your Android application often in one line of code!
+[Dates][1] allows its users to customize date and time formatting in your Android application often in one line of code!
 
 ```javascript
 Dates.with(context).date("1990-07-23").time("20:45:50").format(Format.TYPE1);
